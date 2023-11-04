@@ -28,7 +28,7 @@ namespace Unity.Networking.Transport
     /// connection will be closed.
     /// </remarks>
     [BurstCompile]
-    internal struct TCPNetworkInterface : INetworkInterface
+    public struct TCPNetworkInterface : INetworkInterface
     {
         static readonly NetworkSocket InvalidSocket = Binding.Baselib_Socket_Handle_Invalid;
 
